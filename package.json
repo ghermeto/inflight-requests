@@ -1,0 +1,48 @@
+{
+  "name": "inflight-requests",
+  "version": "0.1.0",
+  "description": "inflight requests counter middleware for express/connect",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "lint": "eslint .",
+    "cover": "nyc --check-coverage --lines 100 mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghermeto/event-decorator.git"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "keywords": [
+    "inflight",
+    "inflight-requests",
+    "express",
+    "restify",
+    "fastify",
+    "connect",
+    "middleware",
+    "in-flight"
+  ],
+  "author": "Guilherme Hermeto <gui.hermeto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghermeto/inflight-requests/issues"
+  },
+  "homepage": "https://github.com/ghermeto/inflight-requests#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.3",
+    "nyc": "^13.1.0",
+    "superagent": "^4.0.0"
+  },
+  "dependencies": {
+    "events-decorator": "^0.2.0"
+  }
+}
